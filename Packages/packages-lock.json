@@ -18,6 +18,13 @@
       },
       "url": "https://packages.unity.com"
     },
+    "com.unity.demoteam.mesh-to-sdf": {
+      "version": "https://github.com/Unity-Technologies/com.unity.demoteam.mesh-to-sdf.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "b8bcdbea97608bf37139f00b03474da8fdf076c7"
+    },
     "com.unity.editorcoroutines": {
       "version": "1.0.0",
       "depth": 1,
@@ -45,6 +52,16 @@
         "com.unity.test-framework": "1.1.31",
         "com.unity.testtools.codecoverage": "1.0.1"
       }
+    },
+    "com.unity.formats.alembic": {
+      "version": "2.2.2",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.timeline": "1.0.0",
+        "com.unity.modules.cloth": "1.0.0"
+      },
+      "url": "https://packages.unity.com"
     },
     "com.unity.ide.rider": {
       "version": "3.0.16",
@@ -249,6 +266,15 @@
         "com.unity.modules.unitywebrequest": "1.0.0",
         "com.unity.modules.unitywebrequesttexture": "1.0.0",
         "com.unity.modules.video": "1.0.0"
+      },
+      "url": "https://registry.npmjs.com"
+    },
+    "jp.keijiro.metamesh": {
+      "version": "1.0.2",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.mathematics": "1.2.1"
       },
       "url": "https://registry.npmjs.com"
     },
